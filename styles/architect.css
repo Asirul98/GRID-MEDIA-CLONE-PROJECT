@@ -114,3 +114,38 @@ main > section{
     font-size: 35px;
     color: crimson;
 }
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px;
+    margin-top: 40px;
+    /* max-width: 500px; */
+}
+.facts{
+    border:7px solid rebeccapurple;
+    border-radius: 8px;
+    padding: 20px 25px;
+    text-align: center;
+    /* max-width:600px; */
+    font-size: 2opx;
+    color: cornsilk;
+    
+
+}
+.our-sponsors{
+    text-align: center;
+    color: rgba(12, 12, 12, 0.856);
+}
+.section-title{
+    font-size: 50px;
+}
+.img{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    align-items: justity-betwwn;
+}
+.p{
+    text-align: center;
+    color: rgb(12, 12, 11);
+    font-size: 1.25rem;
+}
